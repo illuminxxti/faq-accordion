@@ -30,7 +30,7 @@
   }
 .bg-svg
 {
-    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-image: url(background-pattern-desktop.svg);
     width: 100vw;
     height: 36%;
 }
