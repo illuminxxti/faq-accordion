@@ -22,10 +22,10 @@
     align-items: center;
     position: relative;
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
     .center-div
     {
-        min-width: 37em;
+        width: min-content;
     }
   }
 .bg-svg
@@ -35,7 +35,7 @@
     height: 36%;
 }
 .center-div
-{   width:min-content ;
+{   max-width:37em;
     height:fit-content;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
